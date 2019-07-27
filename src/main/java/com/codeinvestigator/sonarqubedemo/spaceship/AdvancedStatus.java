@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AvancedStatus {
+public class AdvancedStatus {
     private Long crew;
     private Integer temperature;
     private Integer pressure;

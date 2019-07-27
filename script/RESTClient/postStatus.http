@@ -1,9 +1,14 @@
-GET http://localhost:8080/ship/status
+POST http://localhost:8080/ship/status
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{       "crew": 20,           "nameOfShip": "Turbo Falcon",   "temperature": 30 }
+{
+  "crew": 234,
+  "nameOfShip": "Minor Turbo Falcon",
+  "temperature": -5,
+  "pressure": 200
+}
 
 ###
 
